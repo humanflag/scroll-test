@@ -1,0 +1,30 @@
+# Dependency directories
+node_modules/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Directory for built output
+/dist
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor folders
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Miscellaneous
+*.swp
+*.lock

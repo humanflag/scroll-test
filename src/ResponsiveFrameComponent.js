@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const ResponsiveFrameComponent = () => {
   const [framePath, setFramePath] = useState("https://raw.githubusercontent.com/humanflag/scroll-test/main/1464x824/frame0001.jpg");
