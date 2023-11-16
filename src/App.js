@@ -13,8 +13,16 @@ function App() {
     <Router>
       <div className="App">
         {/* Basic Navigation */}
-
-
+        <nav>
+          <ul>
+            <li>
+              <Link to="/1">Scrolling Video 1</Link>
+            </li>
+            <li>
+              <Link to="/2">Scrolling Video 2</Link>
+            </li>
+          </ul>
+        </nav>
         {/* Define your routes here */}
         <Routes>
           <Route 
