@@ -18,12 +18,22 @@ function App() {
         {/* Define your routes here */}
         <Routes>
           <Route 
-            path="/" 
+            path="/1" 
             element={
               <ScrollingVideo
                 framePath={framePath}
                 frameCount={648}
                 scrollArea={12000}
+              />
+            } 
+          />
+           <Route 
+            path="/2" 
+            element={
+              <ScrollingVideo
+                framePath={"https://raw.githubusercontent.com/humanflag/scroll-test/main/1400/frame0001.jpg"}
+                frameCount={576}
+                scrollArea={10000}
               />
             } 
           />
