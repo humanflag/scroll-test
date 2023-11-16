@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Navigation Bar Styles */
+nav {
+  background-color: #333; /* Dark background for the nav bar */
+  text-align: center;     /* Center align the navigation items */
+  padding: 10px 0;        /* Some padding at the top and bottom */
+}
+
+nav ul {
+  list-style: none;       /* Remove default list styling */
+  padding: 0;             /* Remove default padding */
+  margin: 0;              /* Remove default margin */
+}
+
+nav li {
+  display: inline;        /* Display list items inline */
+  margin-right: 20px;     /* Space out the list items */
+}
+
+nav a {
+  color: white;           /* Light text color for contrast */
+  text-decoration: none;  /* Remove underline from links */
+  font-size: 18px;        /* Increase font size */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  color: #4CAF50;         /* Change color on hover */
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  color: #333; /* Text color */
+  font-size: 20px; /* Font size */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+}

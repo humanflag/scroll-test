@@ -9,6 +9,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 function App() {
   const framePath = ResponsiveFrameComponent(); // Get the dynamic frame path
 
+  
+
   return (
     <Router>
       <div className="App">
@@ -25,25 +27,26 @@ function App() {
         </nav>
         {/* Define your routes here */}
         <Routes>
-          <Route 
-            path="/1" 
+        
+          <Route
+            path="/1"
             element={
               <ScrollingVideo
                 framePath={framePath}
                 frameCount={648}
                 scrollArea={12000}
               />
-            } 
+            }
           />
-           <Route 
-            path="/2" 
+          <Route
+            path="/2"
             element={
               <ScrollingVideo
                 framePath={"https://raw.githubusercontent.com/humanflag/scroll-test/main/1400/frame0001.jpg"}
                 frameCount={576}
                 scrollArea={10000}
               />
-            } 
+            }
           />
           {/* Add more routes as needed */}
         </Routes>
